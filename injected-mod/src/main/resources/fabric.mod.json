@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "gametest-gradle",
+  "version": "0.0.0",
+
+  "name": "Gametest Gradle",
+  "description": "Mod injected by gradle plugin to communicate test progress.",
+  "license": "LGPL-3.0-only",
+  "contact": {
+    "homepage": "https://github.com/marcus8448/gametest-gradle",
+    "sources": "https://github.com/marcus8448/gametest-gradle/",
+    "issues": "https://github.com/marcus8448/gametest-gradle/issues/"
+  },
+  "authors": [
+    {
+      "name": "marcus8448",
+      "contact": {
+        "homepage": "https://github.com/marcus8448/"
+      }
+    }
+  ],
+  "mixins": [
+    "gametest-gradle.mixins.json"
+  ],
+  "environment": "server"
+}
